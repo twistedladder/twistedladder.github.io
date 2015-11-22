@@ -1,0 +1,218 @@
+#swag{
+    
+}
+
+.jfk-button, .jfk-button-action{
+    position:relative;
+    left:7em;
+    bottom:6em; 
+    font-family: 'Titillium Web'; 
+    font-size: .5em;
+    font-weight: 400;
+    padding: 12px;
+    position: relative;
+    text-transform: uppercase;
+    background: none repeat scroll 0 0 #212639;
+    border: 1px solid rgb(113,168,236);
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+}
+
+.ss-form-question label { 
+    width: 25%; float: left; margin: 3px 0 3px 0; 
+}
+.ss-form-question span { 
+    display: block; margin: 3px 3px 3px 3px; font-family: 'Lato'; font-size: 1em; font-weight: 300; 
+}
+.ss-form-question input{
+     width: 80%; border: 1px solid #000; font-family: 'Lato'; font-size: 1em; padding: 5px;
+}
+.ss-form-question select{
+     width: 80%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
+}
+.ss-form-question textarea{
+     width: 50%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
+}
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(47,79,79);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(47,79,79);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(34,66,66);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(47,79,79);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+.ss-record-username-message {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  color: rgb(0,0,0);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  color: rgb(241,164,158);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  color: rgb(255,255,255);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  color: rgb(184,184,184);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  color: rgb(0,0,0);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+input[type='text'], input:not([type]), textarea {
+    font-size: 1.000rem;
+   
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(241,164,158);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(0,0,0);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_light.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_light_2x.png');
+}
+}
