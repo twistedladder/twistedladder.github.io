@@ -72,7 +72,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav a.flex-next:before  { content: '\f002'; }
 
 /* Pause/Play */
-.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #f3f5f8; }
 .flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
 .flex-pauseplay a:hover  { opacity: 1; }
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
@@ -80,9 +80,9 @@ html[xmlns] .slides {display: block;}
 /* Control Nav */
 .flex-control-nav {width: 100%; position: relative; text-align: center; margin-top: 20px;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {width: 13px; height: 13px; display: block; background: #5c696a; background: #212639; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; border: 3px solid #71a8ec; }
-.flex-control-paging li a:hover { background: #71a8ec; background: #212639); }
-.flex-control-paging li a.flex-active { background: #212639; background: #71a8ec; cursor: default; }
+.flex-control-paging li a {width: 13px; height: 13px; display: block; background: #5c696a; background: #f3f5f8; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; border: 3px solid #71a8ec; }
+.flex-control-paging li a:hover { background: #71a8ec; background: #f3f5f8); }
+.flex-control-paging li a.flex-active { background: #f3f5f8; background: #71a8ec; cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}

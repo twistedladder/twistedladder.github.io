@@ -446,7 +446,7 @@ hr {
 }
 
 /******************************
-/** Features **/
+/** About **/
 /*****************************/
 
 .intro {
@@ -464,6 +464,10 @@ h1.arrow {
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
+
+/******************************
+/** Features **/
+/*****************************/
 
 .features-wrapper {
 	padding: 70px 0px 70px 0px;
@@ -593,6 +597,28 @@ figure.vimeo-video{
 	background: url("../assets/img/gallery/gallery.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
 }
 
+/*************************/
+/** Venue **/
+/*************************/
+
+.venue-details {
+	background: #212739;
+}
+
+.venue-details p {
+    color: #fff;
+    margin-bottom:0;
+}
+
+.venue-details h1{
+	color: #fff;
+	font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;  
+}
+
+
 /*******************************/
 /** Team **/
 /*******************************/
@@ -602,7 +628,7 @@ figure.vimeo-video{
     top: 10px;
 }
 .team {
-	background-color: #212739;
+	background-color: #f3f5f8;
 }
 
 .speakers-wrap {
@@ -664,7 +690,7 @@ blockquote p{
 }
 
 .team p {
-	color: #f9f9f9;
+	color: #363738;
 }
 
 .team h2 {
@@ -677,7 +703,7 @@ blockquote p{
 }
 
 .team h1 {
-	color: #ffffff;
+	color: #363738;;
 }
 .team .md-content{
 	padding:0;
