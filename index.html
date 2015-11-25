@@ -1090,8 +1090,31 @@
 				</div>
                     <div class="row">
 					<div class="col-lg-9 align-center">
+                        <div class="md-modal md-effect-9" id="modal-pay">
+							<div class="md-content padding-none">
+								<div class="folio">
+									
+									<div class="sp-name disclaimer"><strong>Terms and Conditions</strong></div>
+									<div class="sp-dsc disclaim-border">
+									<ul>
+										<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</li>
+										<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+										<li>Excepteur sint occaecat cupidatat non proident.</li>
+									</ul>
+									</div>
+									
+									<button class="md-close"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+						</div> 
                         <div class="ss-form">
-                        <form action="https://docs.google.com/forms/d/1ib6Yjp4RjgLnUbKyBFNb7dtFYgvI--YdrjQO5HfkKzo/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+                        <script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{$('#model-pay').modal('toggle');}"></iframe>
+<form action="https://docs.google.com/forms/d/1ib6Yjp4RjgLnUbKyBFNb7dtFYgvI--YdrjQO5HfkKzo/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+                            
                             <ol role="list" class="ss-question-list" style="padding-left: 0">
                                 <div class="ss-form-question" role="listitem">
                                     <div dir="auto" class="ss-item ss-item-required ss-text">
