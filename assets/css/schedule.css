@@ -150,8 +150,8 @@
 	}
 
 	.tabs nav ul li {
-		width: 20%;
-		width: calc(20% + 1px);
+		width: calc(100%/3);
+		width: calc(100%/3 + 1px  );
 		margin: 0 0 0 -1px;
 	}
 
