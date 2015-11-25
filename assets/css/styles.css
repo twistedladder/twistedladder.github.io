@@ -608,7 +608,7 @@ figure.vimeo-video{
 }
 
 /*************************/
-/** Venue **/
+/** Venue (on schedule) **/
 /*************************/
 
 .venue-details {
@@ -628,7 +628,12 @@ figure.vimeo-video{
     text-transform: uppercase;  
 }
 
-
+/*************************/
+/** Venue-info (in venue section) **/
+/*************************/
+.venue-info iframe{
+    float:right;
+}
 /*******************************/
 /** Team **/
 /*******************************/
