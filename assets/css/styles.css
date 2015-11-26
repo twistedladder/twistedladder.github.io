@@ -619,7 +619,7 @@ figure.vimeo-video{
 }
 
 /*************************/
-/** Venue (on schedule) **/
+/** Venue section **/
 /*************************/
 
 .venue-details {
@@ -628,7 +628,17 @@ figure.vimeo-video{
 
 .venue-details p {
     color: #fff;
+    font-size:1.6em;
     margin-bottom:0;
+}
+
+.venue-details a{
+    color: #f1f1f1;
+    
+}
+
+.venue-link:hover{
+    text-decoration:underline;
 }
 
 .venue-details h1{
@@ -639,9 +649,6 @@ figure.vimeo-video{
     text-transform: uppercase;  
 }
 
-/*************************/
-/** Venue-info (in venue section) **/
-/*************************/
 .venue-info iframe{
     float:right;
 }
