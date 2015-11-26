@@ -166,7 +166,9 @@ html{
 	z-index: 111;
 }
 
-
+#submit-pay.section-padding{
+    padding-top: 10%;
+}
 
 .section-padding {
 	padding-top: 6%;
@@ -1547,6 +1549,9 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
+}
+#submit-pay .paypal{
+    padding-top: 5%
 }
 .container .row .col-md-12 li{
     text-align: left; 
