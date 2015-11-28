@@ -627,18 +627,37 @@ figure.vimeo-video{
 }
 
 .check-in-out {
-    font-size:.95em;
+    
+    text-align: left;
+    font-size:1.3em;
+    color: #fff;
+    font-weight: 300;
+    background: rgba(57, 72, 77, .3);
+    width: 19.5em;
+    margin-left: 1.7em;
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.6);
+    box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.6);
+    
+    border: 0px solid #000000;
+    
+    padding: .6em .9em .8em;
 }
 
 span.tab{
-    padding: 0 .7em; /* Or desired space*/
+    padding: 1em; /* Or desired space*/
 }
 
 .venue-details p {
     color: #fff;
     font-size:1.5em;
     font-weight: 300;
-    margin-bottom:0;
+    margin-bottom:.4em;
 }
 
 .venue-details a{
