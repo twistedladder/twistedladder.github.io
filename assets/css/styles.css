@@ -650,7 +650,11 @@ figure.vimeo-video{
 }
 
 #venue-details .col-xs-5{
-    height: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
 }
 
 span.tab{
@@ -685,6 +689,11 @@ span.tab{
 }
 
 .venue-info iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
     float:right;
 }
 /*******************************/
