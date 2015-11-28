@@ -649,10 +649,10 @@ figure.vimeo-video{
     padding: .6em .9em .8em;
 }
 
-#venue-details .col-xs-5{
+#venue-details .venue-map{
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 56.25%;
+    padding-bottom: 20%;
+    padding-top: 20%;
     height: 0;
     overflow: hidden;
 }
