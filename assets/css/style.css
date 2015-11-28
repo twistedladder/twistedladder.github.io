@@ -2,6 +2,12 @@
     
 }
 
+.swag h2 {
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
 .jfk-button, .jfk-button-action{
     font-family: 'Titillium Web'; 
     font-size: .5em;
