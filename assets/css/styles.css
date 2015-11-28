@@ -649,6 +649,10 @@ figure.vimeo-video{
     padding: .6em .9em .8em;
 }
 
+#venue-details .col-xs-5{
+    height: 100%;
+}
+
 span.tab{
     padding: 1em; /* Or desired space*/
 }
