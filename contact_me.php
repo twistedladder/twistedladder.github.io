@@ -3,8 +3,8 @@
 
 if($_POST)
 {
-	$to_Email   	= "spestude@spestudentsymposium.com"; //Replace with recipient email address
-	$subject        = 'Enquiry from MiEvent'; //Subject line for emails
+	$to_Email   	= 'spestude@spestudentsymposium.com'; //Replace with recipient email address
+	$subject        = 'Enquiry from Potential Sponsor'; //Subject line for emails
 	
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -20,7 +20,7 @@ if($_POST)
     } 
 	
 	//check $_POST vars are set, exit if any missing
-	if(!isset($_POST["userName"]) || !isset($_POST["userEmail"])
+	if(!isset($_POST["userName"]) || !isset($_POST["userCompany"]) || !isset($_POST["userEmail"])
 	|| !isset($_POST["userType"]))
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
@@ -29,12 +29,14 @@ if($_POST)
 
 	//Sanitize input data using PHP filter_var().
 	$user_Name        = filter_var($_POST["userName"], FILTER_SANITIZE_STRING);
+    $user_Company        = filter_var($_POST["userCompany"], FILTER_SANITIZE_STRING);
 	$user_Email       = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
 	$user_Type        = filter_var($_POST["userType"], FILTER_SANITIZE_STRING);
 
 	
-	$message ="Dear Admin,\n\nNew enquiry from MiEvent.\nEnquiry Details:\n";
+	$message ="Dear Admin,\n\nNew enquiry from potential sponsor.\nEnquiry Details:\n";
 	$message .="Name: $user_Name\n";
+    $message .="Company: $user_Company\n";
 	$message .="Email: $user_Email\n";
 	$message .="User Type: $user_Type\n";
 	
@@ -44,7 +46,6 @@ if($_POST)
 	$headers = 'From: '.$user_Email.'' . "\r\n" .
 	'Reply-To: '.$user_Email.'' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
-	
 	$sentMail = @mail($to_Email, $subject, $message, $headers);
 	
 	if(!$sentMail)

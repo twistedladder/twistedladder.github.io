@@ -211,6 +211,7 @@ jQuery( document ).ready(function( $ ) {
 		
 	
 		var person_name = document.getElementById("name").value;
+        var person_company = document.getElementById("company").value;
 		var user_email = document.getElementById("email1").value;
 		
 		var proceed = true;
@@ -223,6 +224,13 @@ jQuery( document ).ready(function( $ ) {
 			return false;
 		}
 		
+        if(person_company == ""){ 
+			var error1 = '<div class="enter-name col-lg-3 align-center"> Enter the company </div>';
+			jQuery("#result").hide().html(error1).fadeIn(500);
+			proceed = false;
+			return false;
+		}
+      
 		if(user_email== ""){
 			var error2 = '<div class="enter-email col-lg-3 align-center"> Enter the email </div>';
 			jQuery("#result").hide().html(error2).fadeIn(500);
@@ -242,6 +250,7 @@ jQuery( document ).ready(function( $ ) {
 			//data to be sent to server
 			var post_data = {
 				'userName': person_name,
+                'userCompany' : person_company,
 				'userType': user_type,
 				'userEmail': user_email,
 
