@@ -200,8 +200,8 @@ jQuery( document ).ready(function( $ ) {
 		
 		
 
-	/** Registration Form for students**/
-    $("#submit_btn_corporate").click(function() 
+	/** Registration Form **/
+	$("#submit_btn").click(function() 
 	{ 
 
 		var filter = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -211,7 +211,6 @@ jQuery( document ).ready(function( $ ) {
 		
 	
 		var person_name = document.getElementById("name").value;
-        var person_company = document.getElementById("company").value;
 		var user_email = document.getElementById("email1").value;
 		
 		var proceed = true;
@@ -219,12 +218,6 @@ jQuery( document ).ready(function( $ ) {
 		
 		if(person_name == ""){ 
 			var error1 = '<div class="enter-name col-lg-3 align-center"> Enter the name </div>';
-			jQuery("#result").hide().html(error1).fadeIn(500);
-			proceed = false;
-			return false;
-		}
-        if(person_company == ""){ 
-			var error1 = '<div class="enter-name col-lg-3 align-center"> Enter the company </div>';
 			jQuery("#result").hide().html(error1).fadeIn(500);
 			proceed = false;
 			return false;
@@ -249,14 +242,13 @@ jQuery( document ).ready(function( $ ) {
 			//data to be sent to server
 			var post_data = {
 				'userName': person_name,
-                'userCompany': person_company,
 				'userType': user_type,
 				'userEmail': user_email,
 
 			}
 			
 			//Ajax post data to server
-			jQuery.post('contact_me_corporate.php', post_data, function(response) {
+			jQuery.post('contact_me.php', post_data, function(response) {
 				//load json data from server and output message
 				if (response.type == 'error') {
 					var output = '<div class="error col-lg-3 align-center">' + response.text + '</div>';
