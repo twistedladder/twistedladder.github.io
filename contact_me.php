@@ -3,8 +3,8 @@
 
 if($_POST)
 {
-	$to_Email   	= 'spestude@e14.ehosts.com'; //Replace with recipient email address
-	$subject        = 'Enquiry from Potential Sponsor'; //Subject line for emails
+	$to_Email   	= 'nicholasstaviski@utexas.edu'; //Replace with recipient email address
+	$subject        = 'Message from Potential Corporate Sponsor'; //Subject line for emails
 	
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -34,16 +34,17 @@ if($_POST)
 	$user_Type        = filter_var($_POST["userType"], FILTER_SANITIZE_STRING);
 
 	
-	$message ="Dear Admin,\n\nNew enquiry from potential sponsor.\nEnquiry Details:\n";
+	$message ="Dear Admin,\n\nNew message from potential corporate sponsor.\nDetails:\n";
 	$message .="Name: $user_Name\n";
     $message .="Company: $user_Company\n";
 	$message .="Email: $user_Email\n";
-	$message .="User Type: $user_Type\n";
+	$message .="Sponsorship Level: $user_Type\n";
 	
 
 
 	//proceed with PHP email.
 	$headers = 'From: '.$user_Email.'' . "\r\n" .
+    $headers .= 'Cc: spestude@e14.ehosts.com' . "\r\n";
 	'Reply-To: '.$user_Email.'' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 	$sentMail = @mail($to_Email, $subject, $message, $headers);
