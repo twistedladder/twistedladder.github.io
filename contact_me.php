@@ -3,7 +3,7 @@
 
 if($_POST)
 {
-	$to_Email   	= 'spestude@spestudentsymposium.com'; //Replace with recipient email address
+	$to_Email   	= 'spestude@e14.ehosts.com'; //Replace with recipient email address
 	$subject        = 'Enquiry from Potential Sponsor'; //Subject line for emails
 	
 	//check if its an ajax request, exit if not

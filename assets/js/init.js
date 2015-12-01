@@ -30,6 +30,9 @@ jQuery(window).load(function() {
         // will fade out the whole DIV that covers the website.
 	jQuery(".preloader").delay(100).fadeOut("slow");
 	jQuery("body").css('overflow-y','visible');
+	document.getElementById("name").value="";
+	document.getElementById("company").value="";
+	document.getElementById("email1").value="";
 
 });
 
