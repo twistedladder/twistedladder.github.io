@@ -830,8 +830,8 @@ div.avatar {
 	margin: 0 auto;
 }
 
-.avatar {
-	background-image: url('../img/speakers/team-01.png');
+#modal-9 .avatar {
+	background-image: url('../img/speakers/Banister-head.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
