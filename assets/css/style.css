@@ -23,19 +23,19 @@
 }
 
 .ss-form-question label { 
-    width: 100%; float: center; margin: 3px 0 3px 0; 
+    width: 33%; float: left; margin: 3px 0 3px 0; 
 }
 .ss-form-question span { 
     display: block; margin: 3px 3px 3px 3px; font-family: 'Lato'; font-size: 1em; font-weight: 300; 
 }
 .ss-form-question input{
-     width: 40%; border: 1px solid #000; font-family: 'Lato'; font-size: 1em; padding: 5px;
+     width: 80%; border: 1px solid #000; font-family: 'Lato'; font-size: 1em; padding: 5px;
 }
 .ss-form-question select{
-     width: 40%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
+     width: 80%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
 }
 .ss-form-question textarea{
-     width: 40%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
+     width: 26.4%; border: 1px solid #000; font-family: 'Lato'; padding: 5px;
 }
 .ss-form-container, .ss-resp-card {
   background-color: rgb(47,79,79);
@@ -129,7 +129,6 @@
   font-weight: 700;
   font-size: 1.080rem;
   font-style: normal;
-    text-align:center;
 }
 
 .ss-embeddable-object-container .ss-q-title {
