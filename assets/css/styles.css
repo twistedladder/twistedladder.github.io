@@ -846,6 +846,28 @@ div.avatar {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+#modal-Susan .avatar {
+	background-image: url('../img/speakers/Susan-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Allen .avatar {
+	background-image: url('../img/speakers/Allen-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
 
 .folio {
 	max-width: 500px;
