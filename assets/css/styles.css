@@ -684,6 +684,13 @@ span.tab{
 .venue-link:hover{
     text-decoration: underline;
 }
+#students a{
+    color: #fff;
+    
+}
+#students a:hover{
+     text-decoration: underline;
+}
 
 .venue-details h1{
 	color: #fff;
