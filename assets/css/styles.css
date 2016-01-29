@@ -843,7 +843,7 @@ div.avatar {
 }
 
 #modal-Gaurdie .avatar {
-	background-image: url('../img/speakers/Banister-head.jpg');
+	background-image: url('../img/speakers/Banister-head.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
@@ -866,6 +866,94 @@ div.avatar {
 }
 #modal-Allen .avatar {
 	background-image: url('../img/speakers/Allen-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Jason .avatar {
+	background-image: url('../img/speakers/Jason-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Matthew .avatar {
+	background-image: url('../img/speakers/Matthew-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Janeen .avatar {
+	background-image: url('../img/speakers/Janeen-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Zee .avatar {
+	background-image: url('../img/speakers/Zee-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Nathan .avatar {
+	background-image: url('../img/speakers/Nathan-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Shahid .avatar {
+	background-image: url('../img/speakers/Shahid-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Mark .avatar {
+	background-image: url('../img/speakers/Mark-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-David .avatar {
+	background-image: url('../img/speakers/David-head.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
