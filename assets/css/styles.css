@@ -864,6 +864,50 @@ div.avatar {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+#modal-Keith .avatar {
+	background-image: url('../img/speakers/Keith-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Bob .avatar {
+	background-image: url('../img/speakers/Elder-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-JC .avatar {
+	background-image: url('../img/speakers/Cunha-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Andrea .avatar {
+	background-image: url('../img/speakers/Andrea-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
 #modal-Allen .avatar {
 	background-image: url('../img/speakers/Allen-head.png');
 	background-repeat: no-repeat;
@@ -943,6 +987,51 @@ div.avatar {
 }
 #modal-Mark .avatar {
 	background-image: url('../img/speakers/Mark-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Jeb .avatar {
+	background-image: url('../img/speakers/Jeb-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Dupree .avatar {
+	background-image: url('../img/speakers/Dupree-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#modal-Kent .avatar {
+	background-image: url('../img/speakers/Kent-head.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#modal-Molly .avatar {
+	background-image: url('../img/speakers/Molly-head.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #ffffff;
